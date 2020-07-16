@@ -1,7 +1,7 @@
-public class BmiService {
-    public double calculate (int weight, double height){
-        double mass = weight / (height * height);
-        return mass;
-    }
+import java.text.DecimalFormat;
 
+public class BmiService {
+    public double calculate(int weight, double height) {
+        return weight / (height * height);
+    }
 }
